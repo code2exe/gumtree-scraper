@@ -1,0 +1,6 @@
+__pycache__/
+build/
+*.csv
+*.egg-info/
+*.yml
+setup.py
