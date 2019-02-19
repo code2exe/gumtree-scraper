@@ -20,7 +20,6 @@ class RentSpider(scrapy.Spider):
         # pagination links
         nxt_urls =  response.css('span.after > a::attr(href)')[0].extract()
         if nxt_urls:
-        # for nxt_url in nxt_urls:
             next_urls = response.urljoin(nxt_urls)
             yield scrapy.Request(url=next_urls, callback=self.parse)
 
