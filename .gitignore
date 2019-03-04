@@ -3,4 +3,4 @@ build/
 *.csv
 *.egg-info/
 *.yml
-setup.py
+*.json

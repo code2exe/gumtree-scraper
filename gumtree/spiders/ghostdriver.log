@@ -1,0 +1,527 @@
+[INFO  - 2019-02-25T11:16:19.985Z] GhostDriver - Main - running on port 63286
+[INFO  - 2019-02-25T11:16:24.379Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-02-25T11:16:24.379Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.customHeaders:  - {}
+[INFO  - 2019-02-25T11:16:24.379Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-02-25T11:16:24.379Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c964f740-38ee-11e9-b0c9-e5292fa4bd5a
+[ERROR - 2019-02-25T11:16:32.191Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:16:32.192Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:16:32.435Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: TypeError: null is not an object (evaluating 'document.querySelector("#footer a[href\x3d'https://pomoc.otodom.pl/hc/pl']").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:16:32.435Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  global code (https://www.otodom.pl/oferta/aquasfera-komfort-presitz-i-wygoda-ID3Wf3V.html#1382fb9d9d:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2608)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:16:49.160Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:16:49.160Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:17:07.125Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:17:07.125Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:14.075Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:14.075Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:21.249Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:21.249Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:25.735Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:25.736Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:31.042Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:31.042Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:33.238Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:33.238Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:35.266Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:35.266Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:38.965Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:38.965Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:41.143Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:41.144Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:44.073Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:44.073Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:49.458Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:49.458Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:49.698Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: TypeError: null is not an object (evaluating 'document.querySelector("#footer a[href\x3d'https://pomoc.otodom.pl/hc/pl']").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:49.698Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  global code (https://www.otodom.pl/oferta/mieszkanie-do-wynajecia-63-mkw-augustow-ID3WeVA.html#1382fb9d9d:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2608)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+  Ub (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2498)
+  h (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2534)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2477)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2535)
+  Md (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  Od (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2538)
+  ve (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2544)
+  we (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2543)
+  xe (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2546)
+  ye (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2547)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:52.348Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:52.348Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:54.632Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:54.632Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:57.781Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:57.782Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:58.084Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: TypeError: null is not an object (evaluating 'document.querySelector("#footer a[href\x3d'https://pomoc.otodom.pl/hc/pl']").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:19:58.085Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  global code (https://www.otodom.pl/oferta/mieszkanie-do-wynajecia-wroclaw-stare-miasto-68m2-ID3WeV4.html#1382fb9d9d:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2608)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+  Ub (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2498)
+  h (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2534)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2477)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2535)
+  Md (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  Od (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2538)
+  ve (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2544)
+  we (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2543)
+  xe (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2546)
+  ye (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2547)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:03.214Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:03.214Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:08.150Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:08.150Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:17.405Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:17.405Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:17.645Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: TypeError: null is not an object (evaluating 'document.querySelector("#footer a[href\x3d'https://pomoc.otodom.pl/hc/pl']").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:17.645Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  global code (https://www.otodom.pl/oferta/wynajme-nowe-mieszkanie-warszawa-mlociny-ID3WeSI.html#1382fb9d9d:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2608)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+  Ub (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2498)
+  h (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2534)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2477)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2535)
+  Md (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  Od (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2538)
+  ve (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2544)
+  we (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2543)
+  xe (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2546)
+  ye (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2547)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:19.295Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:19.295Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:19.559Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: TypeError: null is not an object (evaluating 'document.querySelector("#footer a[href\x3d'https://pomoc.otodom.pl/hc/pl']").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:19.559Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  global code (https://www.otodom.pl/oferta/mieszkanie-2-pokojowe-wejherowo-fenikowskiego-ID2G5IA.html#1382fb9d9d:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2608)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+  Ub (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2498)
+  h (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2534)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2477)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2535)
+  Md (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  Od (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2538)
+  ve (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2544)
+  we (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2543)
+  xe (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2546)
+  ye (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2547)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:22.546Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:22.549Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:22.648Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: TypeError: null is not an object (evaluating 'document.querySelector("#footer a[href\x3d'https://pomoc.otodom.pl/hc/pl']").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:20:22.649Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  global code (https://www.otodom.pl/oferta/mieszkanie-gdansk-stare-miasto-ID3WeW6.html#1382fb9d9d:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2608)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+  Ub (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2498)
+  h (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2534)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2477)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2535)
+  Md (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  Od (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2538)
+  ve (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2544)
+  we (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2543)
+  xe (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2546)
+  ye (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2547)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:21:06.140Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:21:06.140Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:21:06.296Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: TypeError: null is not an object (evaluating 'document.querySelector("#footer a[href\x3d'https://pomoc.otodom.pl/hc/pl']").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:21:06.296Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  global code (https://www.otodom.pl/oferta/mieszkanie-27-02-m-warszawa-ID3WeUQ.html#1382fb9d9d:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2608)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2610)
+  Ub (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2498)
+  h (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2534)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2477)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2535)
+  Md (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2536)
+  Od (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2538)
+  ve (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2544)
+  we (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2543)
+  xe (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2546)
+  ye (https://www.googletagmanager.com/gtm.js?id=GTM-K4DX4C6:2547)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-02-25T11:21:19.980Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-02-25T11:22:48.221Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:22:48.221Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:22:51.315Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-25T11:22:51.315Z] Session [c964f740-38ee-11e9-b0c9-e5292fa4bd5a] - page.onError - stack:
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:30)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:9)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  o (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+  (anonymous function) (https://otodompl-staticstmp.akamaized.net/statics-otodompl/wpacked/otodompl/pl/installWidgets.ad95b460b4d1e09fd60b.js:1)
+
+  phantomjs://platform/console++.js:263 in error

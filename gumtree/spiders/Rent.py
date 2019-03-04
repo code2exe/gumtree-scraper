@@ -23,6 +23,14 @@ class RentSpider(scrapy.Spider):
             next_urls = response.urljoin(nxt_urls)
             yield scrapy.Request(url=next_urls, callback=self.parse)
 
+
+    # for article_url in response.css('.entry-title a ::attr("href")').extract():
+    #     yield response.follow(article_url, callback=self.parse_article)
+    # def parse(self, response):
+    # older_posts = response.css('.nav-previous a ::attr("href")').extract_first()
+    # if older_posts is not None:
+    #     yield response.follow(older_posts, callback=self.parse)
+
     def get_details(self, response):
 
         name = response.css('span.value > span::text')[0].re(r"(\d+)")
