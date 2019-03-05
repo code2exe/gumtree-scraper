@@ -51,14 +51,14 @@ class OtodomscraperSpider(scrapy.Spider):
     start_urls = ['https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72']
 
     def __init__(self):
-        self.options = webdriver.ChromeOptions()
+        self.options = webdriver.FirefoxOptions()
         # self.options.set_headless(True)
         self.options.add_argument("--window-size=1920,1080")
         self.options.add_argument("--start-maximized")
         self.options.add_argument("--headless")
-        self.options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0")
+        # self.options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0")
         # self.driver.add_argument("--disable-infobars")
-        self.driver = webdriver.Chrome(chrome_options=self.options)
+        self.driver = webdriver.Firefox(firefox_options=self.options)
         self.driver.implicitly_wait(10)
 
 
@@ -68,8 +68,13 @@ class OtodomscraperSpider(scrapy.Spider):
             self.driver.get(url)
             # self.driver.implicitly_wait(10)
             sleep(3)
-            self.driver.find_element_by_xpath("//button[@class='css-13rmyub-Button']").click()
-            sleep(6)
+            try:
+                self.driver.find_elements_by_xpath("//button[@class='css-13rmyub-Button']")[0].click()
+                sleep(5)
+
+            except Exception as e:
+                pass
+            
             dc = self.driver.find_element_by_xpath("//strong[@class='css-kvqyle-ShowNumber-className']").text.split(',')
             city = self.driver.find_elements_by_xpath("//a[@class='css-1yn9dg6-Breadcrumb-className']")
             cname = self.driver.find_element_by_xpath("//div[@class='css-5dlbwa-AdformAccount-className']").text.split('\n')
