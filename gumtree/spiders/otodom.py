@@ -49,16 +49,16 @@ from time import sleep
 class OtodomscraperSpider(scrapy.Spider):
     name = 'otodomScraper'
     allowed_domains = ['otodom.pl']
-    start_urls = ['https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72']
+    start_urls = ['https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72&page=101']
 
     def __init__(self):
-        self.prox = Proxy()
-        self.prox.proxy_type = ProxyType.MANUAL
-        self.prox.http_proxy = "127.0.0.1:24000"
-        self.prox.socks_proxy = "127.0.0.1:24000"
-        self.prox.ssl_proxy = "127.0.0.1:24000"
-        self.capab = webdriver.DesiredCapabilities.FIREFOX
-        pself.prox.add_to_capabilities(self.capab)
+        # self.prox = Proxy()
+        # self.prox.proxy_type = ProxyType.MANUAL
+        # self.prox.http_proxy = "127.0.0.1:24000"
+        # self.prox.socks_proxy = "127.0.0.1:24000"
+        # self.prox.ssl_proxy = "127.0.0.1:24000"
+        # self.capab = webdriver.DesiredCapabilities.FIREFOX
+        # self.prox.add_to_capabilities(self.capab)
         self.options = webdriver.FirefoxOptions()
         # self.options.set_headless(True)
         self.options.add_argument("--window-size=1920,1080")
@@ -66,7 +66,7 @@ class OtodomscraperSpider(scrapy.Spider):
         self.options.add_argument("--headless")
         # self.options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0")
         # self.driver.add_argument("--disable-infobars")
-        self.driver = webdriver.Firefox(firefox_options=self.options, desired_capabilities=self.capab)
+        self.driver = webdriver.Firefox(firefox_options=self.options)
         self.driver.implicitly_wait(10)
 
 
@@ -75,17 +75,18 @@ class OtodomscraperSpider(scrapy.Spider):
         for url in urls:
             self.driver.get(url)
             # self.driver.implicitly_wait(10)
-            sleep(3)
+            sleep(5)
             try:
                 self.driver.find_elements_by_xpath("//button[@class='css-13rmyub-Button']")[0].click()
-                sleep(5)
+                sleep(6)
+                dc = self.driver.find_element_by_xpath("//strong[@class='css-kvqyle-ShowNumber-className']").text.split(',')
+                city = self.driver.find_elements_by_xpath("//a[@class='css-1yn9dg6-Breadcrumb-className']")
+                cname = self.driver.find_element_by_xpath("//div[@class='css-5dlbwa-AdformAccount-className']").text.split('\n')
 
             except Exception as e:
                 pass
             
-            dc = self.driver.find_element_by_xpath("//strong[@class='css-kvqyle-ShowNumber-className']").text.split(',')
-            city = self.driver.find_elements_by_xpath("//a[@class='css-1yn9dg6-Breadcrumb-className']")
-            cname = self.driver.find_element_by_xpath("//div[@class='css-5dlbwa-AdformAccount-className']").text.split('\n')
+            
             yield{
                 'City': city[2].text,
                 'District': city[1].text,
@@ -97,7 +98,7 @@ class OtodomscraperSpider(scrapy.Spider):
                 'Contact No. 2': dc[1].replace(' ','') if len(dc) is 2 else "Nil"
             }
         
-        for i in range(2, 324):
+        for i in range(102, 225):
             ht = f'https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72&page={i}'
             yield scrapy.Request(url=ht, callback=self.parse, dont_filter=True)
     
