@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from selenium import webdriver
+from selenium.webdriver.common.proxy import Proxy, ProxyType
 from time import sleep
 
 
@@ -51,6 +52,13 @@ class OtodomscraperSpider(scrapy.Spider):
     start_urls = ['https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72']
 
     def __init__(self):
+        self.prox = Proxy()
+        self.prox.proxy_type = ProxyType.MANUAL
+        self.prox.http_proxy = "127.0.0.1:24000"
+        self.prox.socks_proxy = "127.0.0.1:24000"
+        self.prox.ssl_proxy = "127.0.0.1:24000"
+        self.capab = webdriver.DesiredCapabilities.FIREFOX
+        pself.prox.add_to_capabilities(self.capab)
         self.options = webdriver.FirefoxOptions()
         # self.options.set_headless(True)
         self.options.add_argument("--window-size=1920,1080")
@@ -58,7 +66,7 @@ class OtodomscraperSpider(scrapy.Spider):
         self.options.add_argument("--headless")
         # self.options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0")
         # self.driver.add_argument("--disable-infobars")
-        self.driver = webdriver.Firefox(firefox_options=self.options)
+        self.driver = webdriver.Firefox(firefox_options=self.options, desired_capabilities=self.capab)
         self.driver.implicitly_wait(10)
 
 
