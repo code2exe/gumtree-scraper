@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: DENY
+Content-Security-Policy: default-src * 'unsafe-eval' 'unsafe-inline' data:; frame-ancestors 'self' app.optimizely.com apps.facebook.com fonts.googleapis.com
+X-Xss-Protection: 1
+X-Content-Type-Options: nosniff
+Referrer-Policy: unsafe-url
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-B: otodomplweb8.fixeaws
+X-T: D=839604 t=1551949984756436
+Expires: Thu, 07 Mar 2019 09:13:05 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 07 Mar 2019 09:13:05 GMT
+Set-Cookie: PHPSESSID=1j0heio2f56s3m9uajr57h0215; path=/; domain=.otodom.pl; secure; HttpOnly
+Set-Cookie: mobile_default=desktop; path=/; domain=.otodom.pl; secure
