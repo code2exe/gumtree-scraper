@@ -1,4 +1,4 @@
-.*scrapy/
+.*/
 __pycache__/
 build/
 *.csv
