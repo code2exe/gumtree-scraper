@@ -43,7 +43,7 @@ class OtodomscraperSpider(scrapy.Spider):
                 'City': city[2].text,
                 'District': city[1].text,
                 'Name': self.driver.find_element_by_xpath("//h1[@class='css-19829c-AdHeader-className']").text,
-                'Price': self.driver.find_element_by_xpath("//div[@class='css-7ryazv-AdHeader-className']")[0].text,
+                'Price': self.driver.find_element_by_xpath("//div[@class='css-7ryazv-AdHeader-className']").text,
                 # 'Broker ID': 
                 'Contact name': cname[0],
                 'Contact No. 1': dc[0].replace(' ', '') if dc[0] else "Nil",
