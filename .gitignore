@@ -1,3 +1,4 @@
+.scrapy/
 __pycache__/
 build/
 *.csv
@@ -5,4 +6,3 @@ build/
 *.yml
 *.json
 *.log
-.scrapy/
