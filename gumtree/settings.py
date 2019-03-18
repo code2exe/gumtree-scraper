@@ -23,7 +23,7 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 100
+CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -49,9 +49,11 @@ REACTOR_THREADPOOL_MAXSIZE = 20
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
+SPIDER_MIDDLEWARES = {
 #    'gumtree.middlewares.GumtreeSpiderMiddleware': 543,
-#}
+        'scrapy_deltafetch.DeltaFetch': 100,
+}
+DELTAFETCH_ENABLED = True
 
 
 # Enable or disable downloader middlewares

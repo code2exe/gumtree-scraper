@@ -32,7 +32,7 @@ class OtodomscraperSpider(scrapy.Spider):
                 self.driver.find_elements_by_xpath("//button[@class='css-13rmyub-Button']")[0].click()
                 sleep(6)
                 dc = self.driver.find_element_by_xpath("//strong[@class='css-kvqyle-ShowNumber-className']").text.split(',')
-                city = self.driver.find_elements_by_xpath("//a[@class='css-1yn9dg6-Breadcrumb-className']")
+                city = self.driver.find_elements_by_xpath("//a[@class='css-1sbmquw-Breadcrumb-className']")
                 cname = self.driver.find_element_by_xpath("//div[@class='css-5dlbwa-AdformAccount-className']").text.split('\n')
 
             except Exception as e:
@@ -43,7 +43,7 @@ class OtodomscraperSpider(scrapy.Spider):
                 'City': city[2].text,
                 'District': city[1].text,
                 'Name': self.driver.find_element_by_xpath("//h1[@class='css-19829c-AdHeader-className']").text,
-                'Price': self.driver.find_element_by_xpath("//div[@class='css-7ryazv-AdHeader-className']").text,
+                'Price': self.driver.find_element_by_xpath("//div[@class='css-7ryazv-AdHeader-className']")[0].text,
                 # 'Broker ID': 
                 'Contact name': cname[0],
                 'Contact No. 1': dc[0].replace(' ', '') if dc[0] else "Nil",
