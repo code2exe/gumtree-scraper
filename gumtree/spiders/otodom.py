@@ -4,22 +4,22 @@ from selenium import webdriver
 from time import sleep
 
 class OtodomscraperSpider(scrapy.Spider):
-    links = [f"https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72&page={i}" for i in range(101, 225)]
+    links = [f"https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72&page={i}" for i in range(1, 3)]
     name = 'otodomScraper'
     allowed_domains = ['otodom.pl']
     start_urls = links
 
     def __init__(self):
         
-        self.options = webdriver.FirefoxOptions()
-        # self.options.set_headless(True)
+        self.options = webdriver.ChromeOptions()
+        self.prefs = {'profile.managed_default_content_settings.images': 2}
+        self.options.add_experimental_option("prefs", self.prefs)
         self.options.add_argument("--window-size=1920,1080")
         self.options.add_argument("--start-maximized")
         self.options.add_argument("--headless")
-        # self.options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0")
-        # self.driver.add_argument("--disable-infobars")
-        self.driver = webdriver.Firefox(firefox_options=self.options)
-        self.driver.implicitly_wait(10)
+        
+        self.driver = webdriver.Chrome(chrome_options=self.options)
+        # self.driver.implicitly_wait(10)
 
 
     def parse(self, response):
