@@ -49,11 +49,11 @@ REACTOR_THREADPOOL_MAXSIZE = 20
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-SPIDER_MIDDLEWARES = {
-#    'gumtree.middlewares.GumtreeSpiderMiddleware': 543,
-        'scrapy_deltafetch.DeltaFetch': 100,
-}
-DELTAFETCH_ENABLED = True
+# SPIDER_MIDDLEWARES = {
+# #    'gumtree.middlewares.GumtreeSpiderMiddleware': 543,
+#         'scrapy_deltafetch.DeltaFetch': 100,
+# }
+# DELTAFETCH_ENABLED = True
 
 
 # Enable or disable downloader middlewares

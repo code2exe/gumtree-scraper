@@ -4,7 +4,7 @@ from selenium import webdriver
 from time import sleep
 
 class OtodomscraperSpider(scrapy.Spider):
-    links = [f"https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72&page={i}" for i in range(1, 3)]
+    links = [f"https://www.otodom.pl/wynajem/mieszkanie/?nrAdsPerPage=72&page={i}" for i in range(1, 81)]
     name = 'otodomScraper'
     allowed_domains = ['otodom.pl']
     start_urls = links
